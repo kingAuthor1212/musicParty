@@ -9,3 +9,6 @@ export default class App extends Component{
         return (<h1> testing</h1>)
     }
 }
+
+const appDiv  = document.getElementById("app")
+render(<App />, appDiv)
